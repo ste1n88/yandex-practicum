@@ -1,0 +1,19 @@
+.container-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+.element-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box {
+  padding: 12px (4px * 3 = 12px);
+  margin: 12px ;
+}
+.space {
+  word-spacing: 5px;
+}

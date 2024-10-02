@@ -1,0 +1,11 @@
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 80px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 12px;
+  justify-items: center;
+  align-items: center;
+}
+.container > div {
+  background-color: green;
+}

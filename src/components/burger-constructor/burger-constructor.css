@@ -1,0 +1,41 @@
+.constructor { 
+  display: flex;
+  flexDirection: column;
+  gap: 10px;
+}
+.container {
+  width: auto;
+  height: 100vh;
+  scrollbar-width: thin;
+  scrollbar-color: #8585ad #2f2f37;
+  overflow-y: auto;
+}
+.constructor-order {
+  display: flex;
+  flexDirection: row;
+  align-items: center;
+  gap: 10px;
+}
+.element-price {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
+}
+.box-price {
+  align: left;
+}
+.box-constructor-ingredients {
+  position: justify;
+  width: auto;
+  margin: auto;
+  scroll: auto;
+  overflow: auto;
+}
+.custom-scroll-bar {
+  scrollbar-width: thin;
+  overflow-y: auto;
+  scrollbar-color: #8585ad #2f2f37;
+}

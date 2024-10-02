@@ -1,0 +1,27 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+.element-price {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
+}
+.element-name {
+  white-space: pre-line;
+}
+.element-row {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box {
+  padding: 2px;
+  margin: 2px ;
+}
+
