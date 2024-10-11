@@ -14,6 +14,15 @@
   padding: 12px (4px * 3 = 12px);
   margin: 12px ;
 }
+.title_main_default {
+  composes: text text_type_main-default from global;
+}
+.title_header_inactive {
+  composes: text text_type_main-default text_color-inactive from global;
+}
 .space {
   word-spacing: 5px;
+}
+.padding {
+  padding-right: 10px;
 }

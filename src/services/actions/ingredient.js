@@ -1,0 +1,6 @@
+export const INCREASE_INGRED = 'INCREASE_INGRED';
+export const DECREASE_INGRED = 'DECREASE_INGRED';
+export const DELETE_INGRED = 'DELETE_INGRED';
+
+export const TAB_SWITCH = 'TAB_SWITCH';
+

@@ -8,12 +8,12 @@ import AppHeader from './components/app-header/app-header';
 import BurgerIngredients from './components/burger-ingredients/burger-ingredients';
 import { ingredients }  from './utils/data';
 import BurgerConstructor from './components/burger-constructor/burger-constructor';
-import Test from './components/test_component/test_component';
+//import Test from './components/test_component/test_component';
 
 
 function App() {
   const [count, setCount] = useState(0)
-
+  const [totalPrice, setTotalPrice] = useState(0);
 
   return (
 
@@ -40,6 +40,9 @@ function App() {
 
   </div>
 
+  <div>
+    <Test />
+  </div>
 
 </div>
 
