@@ -5,13 +5,9 @@ import App from './components/app/app.jsx'
 import './index.css'
 
 
-// инициализация общего хранилища
-const store = createStore(rootReducer);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Provider store={store}>
       <App />
-    </Provider>
   </StrictMode>,
 )
