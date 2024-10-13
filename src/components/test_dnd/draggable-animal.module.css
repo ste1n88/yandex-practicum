@@ -1,0 +1,5 @@
+.animalElement {
+  display: flex;
+  direction: row;
+  position: absolute;
+}

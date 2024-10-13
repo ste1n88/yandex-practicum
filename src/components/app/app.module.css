@@ -1,0 +1,68 @@
+
+.main_content {
+  width: 100%;
+  padding: 0  300px ;
+}
+.app_header {
+  display: flex;
+  justify-content: flex-start;
+}
+.panel_burger {
+  display: flex;
+  direction: row;
+  gap: 48px;
+  width: 70%;
+  justify-content: center;
+}
+.app_container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10 ;
+}
+.title_main_large {
+  composes: text text_type_main-large from global;
+}
+.container {
+  width: 50%;
+}
+.box_components {
+  width: auto;
+  margin: auto;
+  scrollbar-width: thin;
+  overflow: auto;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

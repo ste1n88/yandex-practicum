@@ -1,0 +1,44 @@
+.tab {
+  display: flex;
+  height: 300;
+}
+.container {
+  width: auto;
+  height: 100vh;
+  scrollbar-width: thin;
+  scrollbar-color: #8585ad #2f2f37;
+  overflow-y: auto;
+}
+.grid-ingredients {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr, 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.flex_ingredients {
+  display: flex;
+  flex-wrap: wrap;
+  order: type;
+  justify-items: center;
+  gap: 40px;
+}
+.box-header {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  margin: 0 auto;
+  text-align: left;
+}
+.box-ingredients {
+  width: auto;
+  margin: auto;
+  overflow: auto;
+  scroll: auto;
+}
+.custom-scroll-bar {
+  width: auto;
+  margin: auto;
+  scrollbar-width: thin;
+  overflow: auto;
+  scrollbar-color: #8585ad #2f2f37;
+}
