@@ -1,6 +1,4 @@
 import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
 import styles from './app.module.css'
 import { Tab } from '@ya.praktikum/react-developer-burger-ui-components';
 
@@ -12,7 +10,7 @@ import BurgerConstructor from '../burger-constructor/burger-constructor';
 // ---------------------- компоненты для тестов -----------------------//
 //import Test from '../test_component/test_component';
 //import DndAnimal from '../test_dnd/test_dnd';
-import DragAndDropContainer from '../test_react_dnd/test_dnd';
+//import DragAndDropContainer from '../test_react_dnd/test_dnd';
 
 
 function App() {
